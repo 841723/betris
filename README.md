@@ -13,8 +13,8 @@ Betris is executed by running the following command:
 
 ```./betris <board n rows> <board n columns> <requested n rows> <delay> <sequence of pieces>```
 
-Where the sequence of pieces can be a negative number, the sequence will be created randomly with that given number of pieces.
-The sequence of pieces can also be a string of pieces, where each piece is represented by a number from 0 to 4. The last value in the secuencia of pieces must be -1.
+Where the sequence of pieces can be a negative number. The sequence will be created randomly with that given number of pieces.
+The sequence of pieces can also be a string of pieces, where each piece is represented by a number from 0 to 4. The last value in the secuence of pieces must be -1.
 
 ### Piece representation:
 - Piece 0: 
