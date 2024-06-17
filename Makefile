@@ -18,4 +18,4 @@ mainB.o: mainB.cpp
 #-----------------------------------------------------------	
 # LIMPIEZA de todo lo generado. Ojo: se borrarán sin preguntar
 clean:
-	${RM} betris.o mainB.o
+	${RM} betris.o mainB.o betris

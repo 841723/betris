@@ -52,6 +52,8 @@ int main(int argc, char* argv[]) {
 		cout << "Error: numero de argumentos insuficiente." << endl;
 		cout << "\tUso: " << argv[0] << " <numero de filas> <numero de columnas> <objetivo> <retardo> <lista de piezas>" << endl;
 		cout << "\tDonde <lista-piezas> puede ser un valor negativo, que crea una lista con piezas aleatorias." << endl;
+
+		cout << "\n\tEjemplo: " << argv[0] << " 6 5 4 20 0 0 4 2 3 2 1 -1" << endl;
 		return -1;
 	}
 
